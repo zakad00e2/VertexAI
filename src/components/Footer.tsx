@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Sparkles, Twitter, Linkedin, Github, Mail } from "lucide-react";
+import { Triangle, Twitter, Linkedin, Github, Mail } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -37,7 +37,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center gap-2 mb-4">
               <div className="p-2 bg-gradient-primary rounded-lg">
-                <Sparkles className="h-5 w-5 text-primary-foreground" />
+                <Triangle className="h-5 w-5 text-primary-foreground" />
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
                 Vertex AI
