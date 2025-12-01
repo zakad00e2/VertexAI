@@ -54,7 +54,7 @@ const Navbar = () => {
                 )}
               </Link>
             ))}
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
             <Button asChild size="sm" className="bg-gradient-primary">
               <Link to="/contact">Get Started</Link>
             </Button>
@@ -62,7 +62,7 @@ const Navbar = () => {
 
           {/* Mobile Menu Button & Theme Toggle */}
           <div className="md:hidden flex items-center gap-2">
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
             <button
               className="p-2 text-foreground hover:text-accent transition-colors"
               onClick={() => setIsOpen(!isOpen)}
